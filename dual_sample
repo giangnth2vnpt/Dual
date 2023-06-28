@@ -10,7 +10,7 @@
     },
     "lastUpdate": "2022-09-23T00:00:00Z",
     "lifecycleStatus": "Active",
-    "isBundle": true,
+    "isBundle": false,
     "isSellable": true,
     "statusReason": "Published",
     "place": [],
