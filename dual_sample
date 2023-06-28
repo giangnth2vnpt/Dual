@@ -54,7 +54,7 @@
         "description": "The total Number of TV Channels for this product",
         "valueType": "number",
         "minCardinality": 1,
-        "maxCardinality": 180,
+        "maxCardinality": 1,
         "validFor": {
           "startDateTime": "2022-09-23T00:00:00Z",
           "endDateTime": ""
@@ -71,6 +71,34 @@
               "endDateTime": ""
             },
             "value": 180,
+            "@type": "CharacteristicValueSpecification",
+            "@baseType": "",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
+          },
+        {
+        "name": "Fiber 1000 Mbps",
+        "id": "3332",
+        "description": "Dung lượng Internet 1000 Mbps",
+        "valueType": "number",
+        "minCardinality": 1,
+        "maxCardinality": 1,
+        "validFor": {
+          "startDateTime": "2022-09-23T00:00:00Z",
+          "endDateTime": ""
+        },
+        "@type": "ProductSpecificationCharacteristicValueUse",
+        "@baseType": "",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationCharacteristicValueUse.schema.json",
+        "productSpecCharacteristicValue": [
+          {
+            "isDefault": true,
+            "valueType": "number",
+            "validFor": {
+              "startDateTime": "2022-09-23T00:00:00Z",
+              "endDateTime": ""
+            },
+            "unitOfMeasure": "Mbp",
+            "value": 1000,
             "@type": "CharacteristicValueSpecification",
             "@baseType": "",
             "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
