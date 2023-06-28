@@ -49,15 +49,15 @@
     ],
     "prodSpecCharValueUse": [
       {
-        "name": "Number of Ports",
+        "name": "Number of TV Channels",
         "id": "3331",
-        "description": "The total Number of Ports for this product",
+        "description": "The total Number of TV Channels for this product",
         "valueType": "number",
         "minCardinality": 1,
-        "maxCardinality": 1,
+        "maxCardinality": 180,
         "validFor": {
-          "startDateTime": "2020-09-23T00:00:00Z",
-          "endDateTime": "2021-09-23T00:00:00Z"
+          "startDateTime": "2022-09-23T00:00:00Z",
+          "endDateTime": ""
         },
         "@type": "ProductSpecificationCharacteristicValueUse",
         "@baseType": "",
@@ -67,33 +67,21 @@
             "isDefault": true,
             "valueType": "number",
             "validFor": {
-              "startDateTime": "2020-09-23T00:00:00Z",
-              "endDateTime": "2021-09-23T00:00:00Z"
+              "startDateTime": "2022-09-23T00:00:00Z",
+              "endDateTime": ""
             },
-            "value": 8,
-            "@type": "CharacteristicValueSpecification",
-            "@baseType": "",
-            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
-          },
-          {
-            "isDefault": false,
-            "valueType": "number",
-            "validFor": {
-              "startDateTime": "2020-09-23T00:00:00Z",
-              "endDateTime": "2021-09-23T00:00:00Z"
-            },
-            "value": 16,
+            "value": 180,
             "@type": "CharacteristicValueSpecification",
             "@baseType": "",
             "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
           }
         ],
         "productSpecification": {
-          "id": "9881",
+           "id": "9881",
           "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
           "version": "1.1",
-          "name": "Robotics999",
-          "@referredType": "DeviceSpecification",
+          "name": "Dual",
+          "@referredType": "DualSpecification",
           "@type": "ProductSpecificationRef",
           "@baseType": "",
           "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
