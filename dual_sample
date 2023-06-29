@@ -65,7 +65,33 @@
     
   ],
   "bundledProductOffering": [
-    
+    {
+      "id": "15",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/ProductOffering/15",
+      "name": "Fiber 1000",
+      "@type": "bundledProductOffering",
+      "@baseType": "",
+      "lifecycleStatus": "Active",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+    },
+    {
+      "id": "64",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/ProductOffering/64",
+      "name": "50G Mobile Offer",
+      "@type": "bundledProductOffering",
+      "@baseType": "",
+      "lifecycleStatus": "Active",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+    },
+    {
+      "id": "98",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/ProductOffering/98",
+      "name": "Moderm Wifi Premium",
+      "@type": "bundledProductOffering",
+      "@baseType": "",
+      "lifecycleStatus": "Active",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+    }
   ],
   "productOfferingRelationship": [
     
