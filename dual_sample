@@ -160,6 +160,81 @@
         "@baseType": "",
         "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
       }
+    },
+    {
+      "name": "Payment Method",
+      "id": "3331",
+      "description": "Payment Method",
+      "valueType": "String",
+      "minCardinality": 1,
+      "maxCardinality": 1,
+      "validFor": {
+        "startDateTime": "2020-09-23T00:00:00Z",
+        "endDateTime": ""
+      },
+      "@type": "ProductSpecificationCharacteristicValueUse",
+      "@baseType": "",
+      "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Product/ProductSpecificationCharacteristicValueUse.schema.json",
+      "productSpecCharacteristicValue": [
+        {
+          "isDefault": true,
+          "valueType": "String",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": ""
+          },
+          "value": "Credit",
+          "@type": "CharacteristicValueSpecification",
+          "@baseType": "",
+          "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Common/CharacteristicValueSpecification.schema.json"
+        },
+        {
+          "isDefault": true,
+          "valueType": "String",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": ""
+          },
+          "value": "cash",
+          "@type": "CharacteristicValueSpecification",
+          "@baseType": "",
+          "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Common/CharacteristicValueSpecification.schema.json"
+        },
+        {
+          "isDefault": true,
+          "valueType": "String",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": ""
+          },
+          "value": "debit",
+          "@type": "CharacteristicValueSpecification",
+          "@baseType": "",
+          "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Common/CharacteristicValueSpecification.schema.json"
+        },
+        {
+          "isDefault": true,
+          "valueType": "String",
+          "validFor": {
+            "startDateTime": "2020-09-23T00:00:00Z",
+            "endDateTime": ""
+          },
+          "value": "transfers",
+          "@type": "CharacteristicValueSpecification",
+          "@baseType": "",
+          "@schemaLocation": "https://mycsp.com:8080/tmfapi/schemas/Common/CharacteristicValueSpecification.schema.json"
+        }
+      ],
+      "productSpecification": {
+        "id": "9881",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
+        "version": "1.1",
+        "name": "Dual",
+        "@referredType": "DualSpecification",
+        "@type": "ProductSpecificationRef",
+        "@baseType": "",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
+      }
     }
   ],
   "@type": "ProductOffering",
