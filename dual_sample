@@ -1,150 +1,79 @@
 {
-    "id": "7655",
-    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/7655",
-    "name": "Dual Pro",
-    "description": "1000 Mbps Fiber internet, 180 TV Channels, Basic Home Phone and Mobile 50GB",
-    "version": "1.0",
-    "validFor": {
-      "startDateTime": "2022-09-23T00:00:00Z",
-      "endDateTime": ""
-    },
-    "lastUpdate": "2022-09-23T00:00:00Z",
-    "lifecycleStatus": "Active",
-    "isBundle": true,
-    "isSellable": true,
-    "statusReason": "Published",
-    "place": [],
-    "serviceLevelAgreement": {},
-    "productSpecification": {
-      "id": "9881",
-      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
-      "version": "1.1",
-      "name": "Dual",
-      "@referredType": "DualSpecification",
-      "@type": "ProductSpecificationRef",
-      "@baseType": "",
-      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
-    },
-    "channel": [],
-    "serviceCandidate": {},
-    "category": [],
-    "resourceCandidate": {},
-    "productOfferingTerm": [],
-    "productOfferingPrice": [
-      {
-        "id": "1747",
-        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOfferingPrice/1747",
-        "name": "Recurring Monthly Price for Dual Pro",
-        "@referredType": "ProductOfferingPriceCharge",
-        "@type": "ProductOfferingPriceRefOrValue",
-        "@baseType": "",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingPriceRefOrValue.schema.json"
-      }
-    ],
-    "agreement": [],
-    "attachment": [],
-    "marketSegment": [],
-    "bundledProductOffering": [
-      {
-        "id": "15",
-        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/15",
-        "name": "Fiber 1000",
-        "@type": "bundledProductOffering",
-        "@baseType": "",
-        "lifecycleStatus": "Active",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
-      },
-      {
-        "id": "16",
-        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/64",
-        "name": "50 GB Mobile Offer",
-        "@type": "bundledProductOffering",
-        "@baseType": "",
-        "lifecycleStatus": "Active",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
-      },
-	    {
-        "id": "17",
-        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/64",
-        "name": "Moderm Wifi Premium",
-        "@type": "bundledProductOffering",
-        "@baseType": "",
-        "lifecycleStatus": "Active",
-        ""@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
-      }
-    ],
-    "productOfferingRelationship": [
-    ],
-    "prodSpecCharValueUse": [
-      {
-        "name": "Number of TV Channels",
-        "id": "3331",
-        "description": "The total Number of TV Channels for this product",
-        "valueType": "number",
-        "minCardinality": 1,
-        "maxCardinality": 1,
-        "validFor": {
-          "startDateTime": "2022-09-23T00:00:00Z",
-          "endDateTime": ""
-        },
-        "@type": "ProductSpecificationCharacteristicValueUse",
-        "@baseType": "",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationCharacteristicValueUse.schema.json",
-        "productSpecCharacteristicValue": [
-          {
-            "isDefault": true,
-            "valueType": "number",
-            "validFor": {
-              "startDateTime": "2022-09-23T00:00:00Z",
-              "endDateTime": ""
-            },
-            "value": 180,
-            "@type": "CharacteristicValueSpecification",
-            "@baseType": "",
-            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
-          },
-        {
-        "name": "Fiber 1000 Mbps",
-        "id": "3332",
-        "description": "Dung lượng Internet 1000 Mbps",
-        "valueType": "number",
-        "minCardinality": 1,
-        "maxCardinality": 1,
-        "validFor": {
-          "startDateTime": "2022-09-23T00:00:00Z",
-          "endDateTime": ""
-        },
-        "@type": "ProductSpecificationCharacteristicValueUse",
-        "@baseType": "",
-        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationCharacteristicValueUse.schema.json",
-        "productSpecCharacteristicValue": [
-          {
-            "isDefault": true,
-            "valueType": "number",
-            "validFor": {
-              "startDateTime": "2022-09-23T00:00:00Z",
-              "endDateTime": ""
-            },
-            "unitOfMeasure": "Mbp",
-            "value": 1000,
-            "@type": "CharacteristicValueSpecification",
-            "@baseType": "",
-            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Common/CharacteristicValueSpecification.schema.json"
-          }
-        ],
-        "productSpecification": {
-           "id": "9881",
-          "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
-          "version": "1.1",
-          "name": "Dual",
-          "@referredType": "DualSpecification",
-          "@type": "ProductSpecificationRef",
-          "@baseType": "",
-          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
-        }
-      }
-    ],
-    "@type": "ProductOffering",
+  "id": "7655",
+  "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/7655",
+  "name": "Dual Pro",
+  "description": "1000 Mbps Fiber internet, 180 TV Channels, Basic Home Phone and Mobile 50GB",
+  "version": "1.0",
+  "validFor": {
+    "startDateTime": "2022-09-23T00:00:00Z",
+    "endDateTime": ""
+  },
+  "lastUpdate": "2022-09-23T00:00:00Z",
+  "lifecycleStatus": "Active",
+  "isBundle": true,
+  "isSellable": true,
+  "statusReason": "Published",
+  "place": [
+    
+  ],
+  "serviceLevelAgreement": {
+    
+  },
+  "productSpecification": {
+    "id": "9881",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/9881",
+    "version": "1.1",
+    "name": "Dual",
+    "@referredType": "DualSpecification",
+    "@type": "ProductSpecificationRef",
     "@baseType": "",
-    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOffering.schema.json"
-  }
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
+  },
+  "channel": [
+    
+  ],
+  "serviceCandidate": {
+    
+  },
+  "category": [
+    
+  ],
+  "resourceCandidate": {
+    
+  },
+  "productOfferingTerm": [
+    
+  ],
+  "productOfferingPrice": [
+    {
+      "id": "1747",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOfferingPrice/1747",
+      "name": "Recurring Monthly Price for Dual Pro",
+      "@referredType": "ProductOfferingPriceCharge",
+      "@type": "ProductOfferingPriceRefOrValue",
+      "@baseType": "",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingPriceRefOrValue.schema.json"
+    }
+  ],
+  "agreement": [
+    
+  ],
+  "attachment": [
+    
+  ],
+  "marketSegment": [
+    
+  ],
+  "bundledProductOffering": [
+    
+  ],
+  "productOfferingRelationship": [
+    
+  ],
+  "prodSpecCharValueUse": [
+    
+  ],
+  "@type": "ProductOffering",
+  "@baseType": "",
+  "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOffering.schema.json"
+}
