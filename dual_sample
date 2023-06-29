@@ -10,7 +10,7 @@
     },
     "lastUpdate": "2022-09-23T00:00:00Z",
     "lifecycleStatus": "Active",
-    "isBundle": false,
+    "isBundle": true,
     "isSellable": true,
     "statusReason": "Published",
     "place": [],
@@ -44,7 +44,35 @@
     "agreement": [],
     "attachment": [],
     "marketSegment": [],
-    "bundledProductOffering": [],
+    "bundledProductOffering": [
+      {
+        "id": "15",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/15",
+        "name": "Fiber 1000",
+        "@type": "bundledProductOffering",
+        "@baseType": "",
+        "lifecycleStatus": "Active",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+      },
+      {
+        "id": "16",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/64",
+        "name": "50 GB Mobile Offer",
+        "@type": "bundledProductOffering",
+        "@baseType": "",
+        "lifecycleStatus": "Active",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+      },
+	    {
+        "id": "17",
+        "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/64",
+        "name": "Moderm Wifi Premium",
+        "@type": "bundledProductOffering",
+        "@baseType": "",
+        "lifecycleStatus": "Active",
+        ""@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json"
+      }
+    ],
     "productOfferingRelationship": [
     ],
     "prodSpecCharValueUse": [
