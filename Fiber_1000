@@ -1,1 +1,92 @@
-
+{
+  "id": "8656",
+  "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/8656",
+  "name": "Fiber 1000",
+  "description": "1000 Mbps Fiber internet",
+  "version": "1.0",
+  "validFor": {
+    "startDateTime": "2022-09-23T00:00:00Z",
+    "endDateTime": ""
+  },
+  "lastUpdate": "2022-09-23T00:00:00Z",
+  "lifecycleStatus": "Active",
+  "isBundle": true,
+  "isSellable": true,
+  "statusReason": "Published",
+  "place": [
+    
+  ],
+  "serviceLevelAgreement": {
+    
+  },
+  "productSpecification": {
+    "id": "8656",
+    "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productSpecification/8656",
+    "version": "1.1",
+    "name": "Fiber",
+    "@referredType": "",
+    "@type": "ProductSpecificationRef",
+    "@baseType": "",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductSpecificationRef.schema.json"
+  },
+  "channel": [
+    
+  ],
+  "serviceCandidate": {
+    
+  },
+  "category": [
+    
+  ],
+  "resourceCandidate": {
+    
+  },
+  "productOfferingTerm": [
+    
+  ],
+  "productOfferingPrice": [
+    {
+      "id": "1747",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOfferingPrice/1747",
+      "name": "Recurring Monthly Price for Dual Pro",
+      "@referredType": "ProductOfferingPriceCharge",
+      "@type": "ProductOfferingPriceRefOrValue",
+      "@baseType": "",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOfferingPriceRefOrValue.schema.json"
+    }
+  ],
+  "agreement": [
+    
+  ],
+  "attachment": [
+    
+  ],
+  "marketSegment": [
+    
+  ],
+  "bundledProductOffering": [
+    {
+      "id": "151",
+      "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/ProductOffering/151",
+      "name": "Verizon BI 1000 Plan",
+      "@type": "bundledProductOffering",
+      "@baseType": "",
+      "lifecycleStatus": "Active",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/PProduct/bundledProductOffering.schema.json",
+      "BundledProductOfferingOption": {
+        "numberRelOfferDefault": "1",
+        "numberRelOfferLowerLimit": "1",
+        "numberRelOfferUpperLimit": "1"
+      }
+    }
+  ],
+  "productOfferingRelationship": [
+    
+  ],
+  "prodSpecCharValueUse": [
+    
+  ],
+  "@type": "ProductOffering",
+  "@baseType": "",
+  "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOffering.schema.json"
+}
