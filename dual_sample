@@ -1,26 +1,3 @@
-Viewer
-Text
- 
-Paste	
- 
- 
-Copy	
- 
- 
-Format	
- 
- 
-Remove white space	
- 
- 
-Clear	
- 
- 
-Load JSON data	
- 
- 
-About	
- 
 {
   "id": "7655",
   "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/productOffering/7655",
@@ -305,36 +282,3 @@ About
   "@baseType": "",
   "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/ProductOffering.schema.json"
 }
-Online JSON Viewer
-About JSON
-JSON, short for JavaScript Object Notation, is a lightweight computer data interchange format. JSON is a text-based, human-readable format for representing simple data structures and associative arrays (called objects).
-
-Read more: json.org, wikipedia, google
-
-In JSON, they take on the following forms: object, array, value, string and number
-
-
-For any questions or problems please get in touch
-Example
-{
-    "firstName": "John",
-    "lastName": "Smith",
-    "gender": "man",
-    "age": 32,
-    "address": {
-        "streetAddress": "21 2nd Street",
-        "city": "New York",
-        "state": "NY",
-        "postalCode": "10021"
-    },
-    "phoneNumbers": [
-        { "type": "home", "number": "212 555-1234" },
-        { "type": "fax", "number": "646 555-4567" }
-    ]
-}
-About Online JSON Viewer
-JSON Viewer was created in 2008 as a side project and has become the largest project of it's kind. It allows users to convert JSON strings to a friendly readable format
-
-The application is using Ext JS
-
-For any questions or problems please get in touch
